@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#081018">
+    <meta name="description" content="TM Constructions - Completed construction projects in Sri Lanka.">
+    <title>Projects | TM Constructions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            TM <span>CONSTRUCTIONS</span>
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html#home" data-en="Home" data-si="මුල් පිටුව">
+                Home
+            </a>
+
+            <a href="index.html#about" data-en="About" data-si="අප ගැන">
+                About
+            </a>
+
+            <a href="index.html#services" data-en="Services" data-si="සේවාවන්">
+                Services
+            </a>
+
+            <a href="projects.html" class="active" data-en="Projects" data-si="ව්‍යාපෘති">
+                Projects
+            </a>
+
+            <a href="index.html#contact" data-en="Contact" data-si="අමතන්න">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-right">
+
+            <button class="language-btn" id="languageBtn" type="button">
+
+                <span id="languageText">සිං</span>
+
+            </button>
+
+
+            <a href="index.html#contact" class="nav-quote" data-en="Get Quote" data-si="මිල ගණනක් ලබාගන්න">
+
+                Get Quote
+
+            </a>
+
+
+            <button class="menu-btn" id="menuBtn" type="button">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="index.html#home" data-en="Home" data-si="මුල් පිටුව">
+            Home
+        </a>
+
+        <a href="index.html#about" data-en="About" data-si="අප ගැන">
+            About
+        </a>
+
+        <a href="index.html#services" data-en="Services" data-si="සේවාවන්">
+            Services
+        </a>
+
+        <a href="projects.html" data-en="Projects" data-si="ව්‍යාපෘති">
+            Projects
+        </a>
+
+        <a href="index.html#contact" data-en="Contact" data-si="අමතන්න">
+            Contact
+        </a>
+
+    </div>
+
+
+
+
+    <main>
+
+        <section class="projects-page">
+
+
+
+            <div class="container">
+
+                <div class="projects-header reveal">
+
+                    <div class="section-label" data-en="OUR PROJECTS" data-si="අපගේ ව්‍යාපෘති">
+
+                        OUR PROJECTS
+
+                    </div>
+
+
+                    <h1 data-en="Our Completed Projects" data-si="අප විසින් නිම කළ ව්‍යාපෘති">
+
+                        Our Completed Projects
+
+                    </h1>
+
+
+                    <p data-en="Explore our completed construction projects and discover the quality workmanship delivered by TM Constructions."
+                        data-si="TM Constructions විසින් නිම කරන ලද ඉදිකිරීම් ව්‍යාපෘති සහ අපගේ ගුණාත්මක වැඩකිරීම මෙහිදී දැකගන්න.">
+
+                        Explore our completed construction projects
+                        and discover the quality workmanship delivered
+                        by TM Constructions.
+
+                    </p>
+
+                </div>
+
+
+
+
+                <div class="projects-grid" id="projectsGrid">
+
+
+
+                    <div class="loading-projects">
+
+                        <span data-en="Loading projects..." data-si="ව්‍යාපෘති පූරණය වෙමින් පවතී...">
+
+                            Loading projects...
+
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+        <div class="container footer-inner">
+
+
+            <div class="logo">
+
+                TM <span>CONSTRUCTIONS</span>
+
+            </div>
+
+
+            <p data-en="Quality construction. Trusted workmanship." data-si="ගුණාත්මක ඉදිකිරීම්. විශ්වාසනීය වැඩකිරීම.">
+
+                Quality construction.
+                Trusted workmanship.
+
+            </p>
+
+
+            <p class="copyright">
+
+                © <span id="year"></span>
+                TM Constructions.
+
+                All rights reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/config.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+
+
+</body>
+
+</html>
